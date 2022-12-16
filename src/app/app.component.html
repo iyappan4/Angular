@@ -1,0 +1,9 @@
+<!-- <button class="btn" [disabled]="isDisabled" >Click me</button>
+
+<label for="search"> Search <input type="text" [value]="searchValue"> </label> -->
+
+
+<button class="btn btn-primary" (click)="changeName()"> change</button>
+<p> {{name}} </p>
+
+<input type="text" (input)="changeInput($event)">
