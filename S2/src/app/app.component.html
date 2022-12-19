@@ -1,0 +1,11 @@
+
+<h1>Add New Customer</h1>
+
+<app-customer-add (customerAdded)="getCustomers($event)" ></app-customer-add>
+
+<br>
+<br>
+
+<h3>View All New Customer</h3>
+
+<app-customer-view [customers]="customers" ></app-customer-view>
